@@ -20,6 +20,7 @@ int main()
 //    in stack DS elements are stored in a LIFO order
     // so a , then b, and if we want to access a from b
     (*(&b)+1) = 45; // --> stack store data in contiguous memory location
-    std::cout << (*(&b)+1);
+    std::cout << a << endl;
+    std::cout << (*(&b)+1) << endl;
     return 0;
 }
